@@ -1,4 +1,4 @@
-import * as net from "net";
+import * as net from "net"; //let us create a telnet server tcp
 
 const server = net.createServer(socket => {
     console.log("client connected");
